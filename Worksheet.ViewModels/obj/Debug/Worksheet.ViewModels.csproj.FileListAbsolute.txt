@@ -1,0 +1,5 @@
+D:\zhilstroy\Worksheet\Worksheet.ViewModels\bin\Debug\Worksheet.ViewModels.dll
+D:\zhilstroy\Worksheet\Worksheet.ViewModels\bin\Debug\Worksheet.ViewModels.pdb
+D:\zhilstroy\Worksheet\Worksheet.ViewModels\obj\Debug\Worksheet.ViewModels.dll
+D:\zhilstroy\Worksheet\Worksheet.ViewModels\obj\Debug\Worksheet.ViewModels.pdb
+D:\zhilstroy\Worksheet\Worksheet.ViewModels\obj\Debug\Worksheet.ViewModels.csprojResolveAssemblyReference.cache

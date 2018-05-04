@@ -1,0 +1,10 @@
+D:\zhilstroy\Worksheet\Worksheet.Data\bin\Debug\Worksheet.Data.dll.config
+D:\zhilstroy\Worksheet\Worksheet.Data\bin\Debug\Worksheet.Data.dll
+D:\zhilstroy\Worksheet\Worksheet.Data\bin\Debug\Worksheet.Data.pdb
+D:\zhilstroy\Worksheet\Worksheet.Data\bin\Debug\EntityFramework.dll
+D:\zhilstroy\Worksheet\Worksheet.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\zhilstroy\Worksheet\Worksheet.Data\bin\Debug\EntityFramework.xml
+D:\zhilstroy\Worksheet\Worksheet.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\zhilstroy\Worksheet\Worksheet.Data\obj\Debug\Worksheet.Data.dll
+D:\zhilstroy\Worksheet\Worksheet.Data\obj\Debug\Worksheet.Data.pdb
+D:\zhilstroy\Worksheet\Worksheet.Data\obj\Debug\Worksheet.Data.csprojResolveAssemblyReference.cache

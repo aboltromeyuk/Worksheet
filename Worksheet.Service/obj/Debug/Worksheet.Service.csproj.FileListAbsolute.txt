@@ -1,0 +1,5 @@
+D:\zhilstroy\Worksheet\Worksheet.Service\bin\Debug\Worksheet.Service.dll
+D:\zhilstroy\Worksheet\Worksheet.Service\bin\Debug\Worksheet.Service.pdb
+D:\zhilstroy\Worksheet\Worksheet.Service\obj\Debug\Worksheet.Service.dll
+D:\zhilstroy\Worksheet\Worksheet.Service\obj\Debug\Worksheet.Service.pdb
+D:\zhilstroy\Worksheet\Worksheet.Service\obj\Debug\Worksheet.Service.csprojResolveAssemblyReference.cache

@@ -1,0 +1,14 @@
+D:\zhilstroy\Worksheet\Worksheet.Service\bin\Release\Worksheet.Service.dll.config
+D:\zhilstroy\Worksheet\Worksheet.Service\bin\Release\Worksheet.Service.dll
+D:\zhilstroy\Worksheet\Worksheet.Service\bin\Release\Worksheet.Service.pdb
+D:\zhilstroy\Worksheet\Worksheet.Service\bin\Release\EntityFramework.dll
+D:\zhilstroy\Worksheet\Worksheet.Service\bin\Release\EntityFramework.SqlServer.dll
+D:\zhilstroy\Worksheet\Worksheet.Service\bin\Release\Worksheet.Data.dll
+D:\zhilstroy\Worksheet\Worksheet.Service\bin\Release\Worksheet.ViewModels.dll
+D:\zhilstroy\Worksheet\Worksheet.Service\bin\Release\Worksheet.Data.pdb
+D:\zhilstroy\Worksheet\Worksheet.Service\bin\Release\Worksheet.ViewModels.pdb
+D:\zhilstroy\Worksheet\Worksheet.Service\bin\Release\EntityFramework.xml
+D:\zhilstroy\Worksheet\Worksheet.Service\bin\Release\EntityFramework.SqlServer.xml
+D:\zhilstroy\Worksheet\Worksheet.Service\obj\Release\Worksheet.Service.csprojResolveAssemblyReference.cache
+D:\zhilstroy\Worksheet\Worksheet.Service\obj\Release\Worksheet.Service.dll
+D:\zhilstroy\Worksheet\Worksheet.Service\obj\Release\Worksheet.Service.pdb

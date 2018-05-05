@@ -3,3 +3,12 @@ D:\zhilstroy\Worksheet\Worksheet.Service\bin\Debug\Worksheet.Service.pdb
 D:\zhilstroy\Worksheet\Worksheet.Service\obj\Debug\Worksheet.Service.dll
 D:\zhilstroy\Worksheet\Worksheet.Service\obj\Debug\Worksheet.Service.pdb
 D:\zhilstroy\Worksheet\Worksheet.Service\obj\Debug\Worksheet.Service.csprojResolveAssemblyReference.cache
+D:\zhilstroy\Worksheet\Worksheet.Service\bin\Debug\Worksheet.Service.dll.config
+D:\zhilstroy\Worksheet\Worksheet.Service\bin\Debug\EntityFramework.dll
+D:\zhilstroy\Worksheet\Worksheet.Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\zhilstroy\Worksheet\Worksheet.Service\bin\Debug\Worksheet.Data.dll
+D:\zhilstroy\Worksheet\Worksheet.Service\bin\Debug\Worksheet.ViewModels.dll
+D:\zhilstroy\Worksheet\Worksheet.Service\bin\Debug\Worksheet.Data.pdb
+D:\zhilstroy\Worksheet\Worksheet.Service\bin\Debug\Worksheet.ViewModels.pdb
+D:\zhilstroy\Worksheet\Worksheet.Service\bin\Debug\EntityFramework.xml
+D:\zhilstroy\Worksheet\Worksheet.Service\bin\Debug\EntityFramework.SqlServer.xml

@@ -41,14 +41,51 @@
     vertical-align: top;
 }
 
-.OneEigth{
+.OneEigth,
+.OneQuarter,
+.Semifinal{
     margin: 0 auto;
     width: 75%;
-    height: 6%;
-    margin-top: 33%;    
+    height: 6%;     
 }
 
-.OneEigth input:first-child{
+.OneEigth{
+    margin-top: 33%;  
+    margin-bottom: 61%; 
+}
+
+.OneQuarter{
+    margin-top: 75%;
+    margin-bottom: 145%;
+}
+
+.Semifinal{
+    margin-top: 146%;
+}
+
+.Semifinal.custom{
+    margin-top: 150%;
+}
+
+.Finall{
+    margin: 0 auto;
+    width: 80%;
+    height: 11%;
+    margin-top: 69%;
+}
+
+.ThirdPlace{
+    margin: 0 auto;
+    width: 55%;
+    height: 8%;
+    margin-top: 44%;
+    margin-bottom: 0;
+}
+
+.OneEigth input:first-child,
+.OneQuarter input:first-child,
+.Semifinal input:first-child,
+.ThirdPlace input:first-child{
     width: 69%;
     margin-right: 4%;
     height: 100%;
@@ -57,7 +94,19 @@
     font-size: 19px;
 }
 
-.OneEigth input:nth-child(2){
+.Finall input:first-child{
+    width: 69%;
+    margin-right: 4%;
+    height: 100%;
+    border-radius: 6px;
+    vertical-align: top;
+    font-size: 19px;
+}
+
+.OneEigth input:nth-child(2),
+.OneQuarter input:nth-child(2),
+.Semifinal input:nth-child(2),
+.ThirdPlace input:nth-child(2){
     width: 27%;
     height: 100%;
     border-radius: 6px;
@@ -65,7 +114,18 @@
     font-size: 19px;
 }
 
-.OneEigth input:nth-child(3){
+.Finall input:nth-child(2){
+    width: 27%;
+    height: 100%;
+    border-radius: 6px;
+    vertical-align: top;
+    font-size: 19px;
+}
+
+.OneEigth input:nth-child(3),
+.OneQuarter input:nth-child(3),
+.Semifinal input:nth-child(3),
+.ThirdPlace input:nth-child(3){
     width: 69%;
     margin-right: 4%;
     margin-top: 2%;
@@ -75,17 +135,47 @@
     font-size: 19px;
 }
 
-.OneEigth input:nth-child(4){
+.Finall input:nth-child(3){
+    width: 69%;
+    margin-right: 4%;
+    margin-top: 6%;
+    height: 100%;
+    border-radius: 6px;
+    vertical-align: top;
+    font-size: 19px;
+}
+
+.OneEigth input:nth-child(4),
+.OneQuarter input:nth-child(4),
+.Semifinal input:nth-child(4),
+.ThirdPlace input:nth-child(4){
     width: 27%;
     height: 100%;
     margin-top: 2%;
+    border-radius: 6px;
+    vertical-align: top;
+    font-size: 19px;
+}
+
+.Finall input:nth-child(4) {
+    width: 27%;
+    height: 100%;
+    margin-top: 6%;
     border-radius: 6px;
     vertical-align: top;
     font-size: 19px;
 }
 
 .OneEigth input[type=number]::-webkit-inner-spin-button,
-.OneEigth input[type=number]::-webkit-outer-spin-button{
+.OneEigth input[type=number]::-webkit-outer-spin-button,
+.OneQuarter input[type=number]::-webkit-inner-spin-button,
+.OneQuarter input[type=number]::-webkit-outer-spin-button,
+.Semifinal input[type=number]::-webkit-inner-spin-button,
+.Semifinal input[type=number]::-webkit-outer-spin-button,
+.Finall input[type=number]::-webkit-inner-spin-button,
+.Finall input[type=number]::-webkit-outer-spin-button,
+.ThirdPlace input[type=number]::-webkit-inner-spin-button,
+.ThirdPlace input[type=number]::-webkit-outer-spin-button{
   -webkit-appearance: none; 
   margin: 0; 
 }

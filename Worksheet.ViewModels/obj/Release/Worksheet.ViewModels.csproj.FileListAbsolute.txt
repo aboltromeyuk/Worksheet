@@ -1,0 +1,4 @@
+D:\zhilstroy\Worksheet\Worksheet.ViewModels\bin\Release\Worksheet.ViewModels.dll
+D:\zhilstroy\Worksheet\Worksheet.ViewModels\bin\Release\Worksheet.ViewModels.pdb
+D:\zhilstroy\Worksheet\Worksheet.ViewModels\obj\Release\Worksheet.ViewModels.dll
+D:\zhilstroy\Worksheet\Worksheet.ViewModels\obj\Release\Worksheet.ViewModels.pdb

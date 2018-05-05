@@ -57,3 +57,7 @@ D:\zhilstroy\Worksheet\Worksheet\bin\WebGrease.dll
 D:\zhilstroy\Worksheet\Worksheet\bin\Antlr3.Runtime.pdb
 D:\zhilstroy\Worksheet\Worksheet\bin\Newtonsoft.Json.xml
 D:\zhilstroy\Worksheet\Worksheet\bin\System.Web.Optimization.xml
+D:\zhilstroy\Worksheet\Worksheet\bin\Worksheet.Service.dll
+D:\zhilstroy\Worksheet\Worksheet\bin\Worksheet.Data.dll
+D:\zhilstroy\Worksheet\Worksheet\bin\Worksheet.Service.pdb
+D:\zhilstroy\Worksheet\Worksheet\bin\Worksheet.Data.pdb

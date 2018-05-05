@@ -23,8 +23,12 @@ namespace Worksheet.ViewModels
         public string Patronymic { get; set; }
 
         [Required]
-        [DisplayName("Имя")]
+        [DisplayName("Сколько вам лет?")]
         public string Age { get; set; }
+
+        [Required]
+        [DisplayName("Адрес электронной почты")]
+        public string Email { get; set; }
 
         [Required]
         [DisplayName("Укажите ваш номер телефона для связи")]

@@ -8,11 +8,18 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <div>
+    <div class="header">
+
+    </div>
+
+    
+    <div class="col-md">
         @RenderBody()
     </div>
+    
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/sections")
     @RenderSection("scripts", required: false)
 </body>
 </html>

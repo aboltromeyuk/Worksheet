@@ -25,5 +25,9 @@ namespace Worksheet.ViewModels
         [Required]
         [DisplayName("Имя")]
         public string Age { get; set; }
+
+        [Required]
+        [DisplayName("Укажите ваш номер телефона для связи")]
+        public string Phone { get; set; }
     }
 }

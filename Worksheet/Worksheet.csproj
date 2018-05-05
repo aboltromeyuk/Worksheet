@@ -17,7 +17,7 @@
     <RootNamespace>Worksheet</RootNamespace>
     <AssemblyName>Worksheet</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
-    <UseIISExpress>true</UseIISExpress>
+    <UseIISExpress>false</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
@@ -150,6 +150,9 @@
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\images\logo.jpg" />
+    <Content Include="Content\images\standing.jpg" />
+    <Content Include="Content\styles\site.css" />
     <Content Include="Global.asax" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
@@ -184,6 +187,7 @@
     <Content Include="scripts\popper-utils.min.js" />
     <Content Include="scripts\popper.js" />
     <Content Include="scripts\popper.min.js" />
+    <Content Include="scripts\sections\site.js" />
     <Content Include="scripts\umd\popper-utils.js" />
     <Content Include="scripts\umd\popper-utils.min.js" />
     <Content Include="scripts\umd\popper.js" />
@@ -222,6 +226,7 @@
     <Content Include="scripts\popper-utils.js.map" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Home\View.cshtml" />
+    <Content Include="Views\Home\Standing.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -261,7 +266,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>32941</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:32941/</IISUrl>
+          <IISUrl>http://worksheet.my</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

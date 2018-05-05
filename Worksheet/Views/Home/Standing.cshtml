@@ -1,0 +1,50 @@
+﻿@model Worksheet.ViewModels.FullViewModel
+
+<div class="standing-wrap col-md">
+    <img src="~/Content/images/standing.jpg" />   
+    
+    <div class="games">
+        <div class="d-inline-block w-10-5 h-100"></div>
+
+        <div class="d-inline-block w-9-8 h-100">
+            
+                
+                <div class="OneEigth">
+                    @Html.EditorFor(model => model.Standing.OneEigths[0].FirstCommand)
+                    @Html.EditorFor(model => model.Standing.OneEigths[0].ScoreFirstCommand)
+                    @Html.EditorFor(model => model.Standing.OneEigths[0].SecondCommand)
+                    @Html.EditorFor(model => model.Standing.OneEigths[0].ScoreSecondCommand)
+                    @Html.ValidationMessageFor(model => model.Standing.OneEigths[0].FirstCommand, "", new { @class = "" })
+                    @Html.ValidationMessageFor(model => model.Standing.OneEigths[0].ScoreFirstCommand, "", new { @class = "" })
+                </div>
+            
+        </div>
+
+        <div class="d-inline-block w-9-8 h-100">
+
+        </div>
+
+        <div class="d-inline-block w-10-5 h-100">
+
+        </div>
+
+        <div class="d-inline-block w-19 h-100">
+
+        </div>
+
+        <div class="d-inline-block w-10-2 h-100">
+
+        </div>
+
+        <div class="d-inline-block w-9-8 h-100">
+
+        </div>
+
+        <div class="d-inline-block w-9-8 h-100">
+
+        </div>
+
+        <div class="d-inline-block w-10-5 h-100"></div>
+    </div> 
+</div>
+

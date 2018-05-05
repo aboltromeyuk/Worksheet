@@ -8,7 +8,28 @@
     @Html.AntiForgeryToken()
 
     <div class="form-horizontal">
-        <h4>Заполните форму</h4>
+        <h4>Кубок прогнозов</h4>
+        <hr />
+        <div class="text-black-50">
+            Вы и ваш ребёнок обожаете футбол? Будете следить за всеми играми предстоящего чемпионата? Отлично! У вас есть возможность сыграть  с  
+            "Футбольной Школой Николая Мурашко" в Кубок прогнозов и оказаться на матче ФК "Интер" в Италии! <br/><br />
+
+            Что нужно сделать?<br/>
+            - Ответить на все вопросы анкеты.<br/>
+            - Назвать страны-участницы 1/4 финала, всех призеров и счет двух главных матчей. Заявки принимаются до 13 июня включительно.<br/>
+            - Следить за играми чемпионата.<br/><br/>
+             
+            Если ваш прогноз окажется самым точным, вместе с ребенком вы отправитесь в Милан на первый домашний матч ФК "Интер". Поездка состоится осенью 2018 года.<br/><br/>
+            
+            Кроме этого, в рамках проекта "ФШМ-Дети", футбольная школа подготовила дополнительные призы:<br/>
+            2-е место - два месяца бесплатных тренировок для вашего ребёнка в "Интер Академии ФШМ-Минск"<br/>
+            3-е место - 3 фирменных мяча.<br/><br />
+            
+            Результаты Кубка прогнозов будут объявлены 18 августа.<br/><br/>
+
+            Прежде, чем заполнить анкету, ознакомьтесь с условиями проведения "Кубка прогнозов": <a href="#"></a>
+
+        </div>
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         <div class="form-group">
@@ -47,56 +68,77 @@
 
 
         <div class="form-group">
-            @Html.LabelFor(model => model.Answer.OftenPlay, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.Answer.OftenPlay, htmlAttributes: new { @class = "control-label col-md-10" })
             <div class="col-md-10">
-                
-                @Html.RadioButtonFor(model=> model.Answer.OftenPlay, "Конечно, меня знает вся страна!")
-                @Html.Label("Конечно, меня знает вся страна!", htmlAttributes: new { @class = "control-label col-md-2" })
-                
-                @Html.RadioButtonFor(model => model.Answer.OftenPlay, "Иногда могу на стадионе побегать") 
-                @Html.Label("Иногда могу на стадионе побегать", htmlAttributes: new { @class = "control-label col-md-2" })
-                
-                @Html.RadioButtonFor(model => model.Answer.OftenPlay, "Профессионально смотрю футбол по телевизору")              
-                @Html.Label("Профессионально смотрю футбол по телевизору", htmlAttributes: new { @class = "control-label col-md-2" }) 
+                <div class="radio">
+                    @Html.RadioButtonFor(model => model.Answer.OftenPlay, "Конечно, меня знает вся страна!")
+                    @Html.Label("Конечно, меня знает вся страна!", htmlAttributes: new { @class = "control-label col-md-15" })
+                </div>
+
+                <div class="radio">
+                    @Html.RadioButtonFor(model => model.Answer.OftenPlay, "Иногда могу на стадионе побегать") 
+                    @Html.Label("Иногда могу на стадионе побегать", htmlAttributes: new { @class = "control-label col-md-15" })
+                </div>
+
+                <div class="radio">
+                    @Html.RadioButtonFor(model => model.Answer.OftenPlay, "Профессионально смотрю футбол по телевизору")              
+                    @Html.Label("Профессионально смотрю футбол по телевизору", htmlAttributes: new { @class = "control-label col-md-15" }) 
+                </div>
+                @Html.ValidationMessageFor(model => model.Answer.OftenPlay, "", new { @class = "text-danger" })
             </div>            
         </div>
 
 
 
         <div class="form-group">
-            @Html.LabelFor(model => model.Answer.HasChildren, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">                
-                @Html.RadioButtonFor(model => model.Answer.HasChildren, "Да, сын")
-                @Html.Label("Да, сын", htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.Answer.HasChildren, htmlAttributes: new { @class = "control-label col-md-10" })
+            <div class="col-md-10"> 
+                <div class="radio">               
+                    @Html.RadioButtonFor(model => model.Answer.HasChildren, "Да, сын")
+                    @Html.Label("Да, сын", htmlAttributes: new { @class = "control-label col-md-15" })
+                </div>
                 
-                @Html.RadioButtonFor(model => model.Answer.HasChildren, "Да, дочка")
-                @Html.Label("Да, дочка", htmlAttributes: new { @class = "control-label col-md-2" })
-                
-                @Html.RadioButtonFor(model => model.Answer.HasChildren, "Да, и не один ребенок")
-                @Html.Label("Да, и не один ребенок", htmlAttributes: new { @class = "control-label col-md-2" })
-                
-                @Html.RadioButtonFor(model => model.Answer.HasChildren, "Пока нет, но мечтаю")
-                @Html.Label("Пока нет, но мечтаю", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="radio">
+                    @Html.RadioButtonFor(model => model.Answer.HasChildren, "Да, дочка")
+                    @Html.Label("Да, дочка", htmlAttributes: new { @class = "control-label col-md-15" })
+                </div>
+
+                <div class="radio">
+                    @Html.RadioButtonFor(model => model.Answer.HasChildren, "Да, и не один ребенок")
+                    @Html.Label("Да, и не один ребенок", htmlAttributes: new { @class = "control-label col-md-15" })
+                </div>
+                <div class="radio">
+                    @Html.RadioButtonFor(model => model.Answer.HasChildren, "Пока нет, но мечтаю")
+                    @Html.Label("Пока нет, но мечтаю", htmlAttributes: new { @class = "control-label col-md-15" })
+                </div>
+                @Html.ValidationMessageFor(model => model.Answer.HasChildren, "", new { @class = "text-danger" })
             </div>
         </div>
 
 
         <div class="form-group">
-            @Html.LabelFor(model => model.Answer.FootballSchool, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">                
-                @Html.RadioButtonFor(model => model.Answer.FootballSchool, "Конечно! В семье растёт чемпион")
-                @Html.Label("Конечно! В семье растёт чемпион", htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.Answer.FootballSchool, htmlAttributes: new { @class = "control-label col-md-10" })
+            <div class="col-md-11">
+                <div class="radio">                
+                    @Html.RadioButtonFor(model => model.Answer.FootballSchool, "Конечно! В семье растёт чемпион")
+                    @Html.Label("Конечно! В семье растёт чемпион", htmlAttributes: new { @class = "control-label col-md-15" })
+                </div>
 
-                @Html.RadioButtonFor(model => model.Answer.FootballSchool, "Хорошая идея, устали заменять стёкла в окнах школы")
-                @Html.Label("Хорошая идея, устали заменять стёкла в окнах школы", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="radio">
+                    @Html.RadioButtonFor(model => model.Answer.FootballSchool, "Хорошая идея, устали заменять стёкла в окнах школы")
+                    @Html.Label("Хорошая идея, устали заменять стёкла в окнах школы", htmlAttributes: new { @class = "control-label col-md-15" })
+                </div>
 
-                @Html.RadioButtonFor(model => model.Answer.FootballSchool, "У нас династия скрипачей!")
-                @Html.Label("У нас династия скрипачей!", htmlAttributes: new { @class = "control-label col-md-2" })                
+                <div class="radio">
+                    @Html.RadioButtonFor(model => model.Answer.FootballSchool, "У нас династия скрипачей!")
+                    @Html.Label("У нас династия скрипачей!", htmlAttributes: new { @class = "control-label col-md-15" })
+                </div> 
+                @Html.ValidationMessageFor(model => model.Answer.FootballSchool, "", new { @class = "text-danger" })            
             </div>
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.Answer.CountryIll, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.Answer.CountryIll, htmlAttributes: new { @class = "control-label col-md-10" })
             <div class="col-md-10">
                 @Html.EditorFor(model => model.Answer.CountryIll, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.Answer.CountryIll, "", new { @class = "text-danger" })
@@ -105,39 +147,60 @@
 
         
         <div class="form-group">
-            @Html.LabelFor(model => model.Answer.CountryСhampion, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.Answer.CountryСhampion, htmlAttributes: new { @class = "control-label col-md-10" })
             <div class="col-md-10">
-                @Html.RadioButtonFor(model => model.Answer.CountryСhampion, "Россия")
-                @Html.Label("Россия", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="radio">
+                    @Html.RadioButtonFor(model => model.Answer.CountryСhampion, "Россия")
+                    @Html.Label("Россия", htmlAttributes: new { @class = "control-label col-md-2" })
+                </div>
 
-                @Html.RadioButtonFor(model => model.Answer.CountryСhampion, "Португалия")
-                @Html.Label("Португалия", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="radio">
+                    @Html.RadioButtonFor(model => model.Answer.CountryСhampion, "Португалия")
+                    @Html.Label("Португалия", htmlAttributes: new { @class = "control-label col-md-2" })
+                </div>
 
-                @Html.RadioButtonFor(model => model.Answer.CountryСhampion, "Франция")
-                @Html.Label("Франция", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="radio">
+                    @Html.RadioButtonFor(model => model.Answer.CountryСhampion, "Франция")
+                    @Html.Label("Франция", htmlAttributes: new { @class = "control-label col-md-2" })
+                </div>
 
-                @Html.RadioButtonFor(model => model.Answer.CountryСhampion, "Аргентина")
-                @Html.Label("Аргентина", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="radio">
+                    @Html.RadioButtonFor(model => model.Answer.CountryСhampion, "Аргентина")
+                    @Html.Label("Аргентина", htmlAttributes: new { @class = "control-label col-md-2" })
+                </div>
 
-                @Html.RadioButtonFor(model => model.Answer.CountryСhampion, "Бразилия")
-                @Html.Label("Бразилия", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="radio">
+                    @Html.RadioButtonFor(model => model.Answer.CountryСhampion, "Бразилия")
+                    @Html.Label("Бразилия", htmlAttributes: new { @class = "control-label col-md-2" })
+                </div>
 
-                @Html.RadioButtonFor(model => model.Answer.CountryСhampion, "Германия")
-                @Html.Label("Германия", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="radio">
+                    @Html.RadioButtonFor(model => model.Answer.CountryСhampion, "Германия")
+                    @Html.Label("Германия", htmlAttributes: new { @class = "control-label col-md-2" })
+                </div>
 
-                @Html.RadioButtonFor(model => model.Answer.CountryСhampion, "Бельгия")
-                @Html.Label("Бельгия", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="radio">
+                    @Html.RadioButtonFor(model => model.Answer.CountryСhampion, "Бельгия")
+                    @Html.Label("Бельгия", htmlAttributes: new { @class = "control-label col-md-2" })
+                </div>
 
-                @Html.RadioButtonFor(model => model.Answer.CountryСhampion, "Польша")
-                @Html.Label("Польша", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="radio">
+                    @Html.RadioButtonFor(model => model.Answer.CountryСhampion, "Польша")
+                    @Html.Label("Польша", htmlAttributes: new { @class = "control-label col-md-2" })
+                </div>
 
-                @Html.RadioButtonFor(model => model.Answer.CountryСhampion, "")
-                @Html.Label("Другое:", htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="radio">
+                    @Html.RadioButtonFor(model => model.Answer.CountryСhampion, "")
+                    @Html.Label("Другое:", htmlAttributes: new { @class = "control-label col-md-2" })
+                    @Html.TextBox("other", null, new { @class = "ml-2 form-control custom-control-inline w-50" })
+                </div>
+                @Html.ValidationMessageFor(model => model.Answer.CountryСhampion, "", new { @class = "text-danger" })
+                
             </div>
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.Answer.CountryPreChampion, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.Answer.CountryPreChampion, htmlAttributes: new { @class = "control-label col-md-10" })
             <div class="col-md-10">
                 @Html.EditorFor(model => model.Answer.CountryPreChampion, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.Answer.CountryPreChampion, "", new { @class = "text-danger" })
@@ -145,7 +208,7 @@
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.Answer.ScoreFinal, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.Answer.ScoreFinal, htmlAttributes: new { @class = "control-label col-md-10" })
             <div class="col-md-10">
                 @Html.EditorFor(model => model.Answer.ScoreFinal, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.Answer.ScoreFinal, "", new { @class = "text-danger" })
@@ -153,7 +216,7 @@
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.Answer.CountryThird, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.Answer.CountryThird, htmlAttributes: new { @class = "control-label col-md-10" })
             <div class="col-md-10">
                 @Html.EditorFor(model => model.Answer.CountryThird, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.Answer.CountryThird, "", new { @class = "text-danger" })
@@ -161,7 +224,7 @@
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.Answer.CountryFourth, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.Answer.CountryFourth, htmlAttributes: new { @class = "control-label col-md-10" })
             <div class="col-md-10">
                 @Html.EditorFor(model => model.Answer.CountryFourth, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.Answer.CountryFourth, "", new { @class = "text-danger" })
@@ -169,7 +232,7 @@
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.Answer.ScoreThird, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.Answer.ScoreThird, htmlAttributes: new { @class = "control-label col-md-10" })
             <div class="col-md-10">
                 @Html.EditorFor(model => model.Answer.ScoreThird, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.Answer.ScoreThird, "", new { @class = "text-danger" })
@@ -177,7 +240,7 @@
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.Answer.EightСountries, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.LabelFor(model => model.Answer.EightСountries, htmlAttributes: new { @class = "control-label col-md-10" })
             <div class="col-md-10">
                 @Html.EditorFor(model => model.Answer.EightСountries, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.Answer.EightСountries, "", new { @class = "text-danger" })
@@ -185,8 +248,26 @@
         </div>
 
         <div class="form-group">
+            @Html.LabelFor(model => model.User.Phone, htmlAttributes: new { @class = "control-label col-md-10" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.User.Phone, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.User.Phone, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        @Html.Partial("Standing")
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Agreement, htmlAttributes: new { @class = "control-label col-md-10" })
+            <div class="col-md-10">
+                @Html.CheckBoxFor(model => model.Agreement, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Agreement, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Save" class="btn btn-default" />
+                <input type="submit" value="Отпправиить" class="btn btn-default" />
             </div>
         </div>
     </div>

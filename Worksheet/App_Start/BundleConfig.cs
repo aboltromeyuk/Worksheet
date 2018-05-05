@@ -26,9 +26,12 @@ namespace Worksheet.App_Start
                       "~/Scripts/bootstrap.js",
                       "~/Scripts/respond.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/sections").Include(
+                      "~/Scripts/sections/site.js"));
+
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/styles/site.css"));
         }
     }
 }

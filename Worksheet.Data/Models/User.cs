@@ -8,7 +8,8 @@ namespace Worksheet.Data
         public string Name { get; set; }
         public string Surname { get; set; }
         public string Patronymic { get; set; }
-        public string Age { get; set; }      
+        public string Age { get; set; }  
+        public string Phone { get; set; }    
         
         public Answer Answer { get; set; }
         public Standing Standing { get; set; }  

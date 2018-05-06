@@ -7,3 +7,4 @@ D:\zhilstroy\Worksheet\Worksheet.Data\bin\Release\EntityFramework.xml
 D:\zhilstroy\Worksheet\Worksheet.Data\bin\Release\EntityFramework.SqlServer.xml
 D:\zhilstroy\Worksheet\Worksheet.Data\obj\Release\Worksheet.Data.dll
 D:\zhilstroy\Worksheet\Worksheet.Data\obj\Release\Worksheet.Data.pdb
+D:\zhilstroy\Worksheet\Worksheet.Data\obj\Release\Worksheet.Data.csprojResolveAssemblyReference.cache

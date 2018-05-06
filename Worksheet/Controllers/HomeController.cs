@@ -22,8 +22,7 @@ namespace Worksheet.Controllers
             return View();
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
+        [HttpPost]        
         public ActionResult Index(FullViewModel model)
         {
             if (!model.Agreement)            

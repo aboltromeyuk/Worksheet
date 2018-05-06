@@ -13,11 +13,12 @@
     </div>
 
     
-    <div class="col-md">
+    <div class="content col-md px-5 py-5">
         @RenderBody()
     </div>
     
     @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryval")    
     @Scripts.Render("~/bundles/bootstrap")
     @Scripts.Render("~/bundles/sections")
     @RenderSection("scripts", required: false)

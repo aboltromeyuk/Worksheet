@@ -9,14 +9,14 @@ namespace Worksheet.ViewModels
 {
     public class GameViewModel
     {
-        [Required]
+        [Required(ErrorMessage = "Обязательное поле")]
         public string FirstCommand { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Обязательное поле")]
         public int ScoreFirstCommand { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Обязательное поле")]
         public string SecondCommand { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Обязательное поле")]
         public int ScoreSecondCommand { get; set; }
     }
 }

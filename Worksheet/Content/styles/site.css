@@ -1,8 +1,9 @@
 ﻿body {
-    background-color: #005ba1;
+    background: linear-gradient(-90deg, #052e54, #004276,#004e8c, #025fa5);
 }
 .header{
-    width: 100%;
+    width: 93.5%;
+    margin: 0 auto;
     height: 278px;
     background-image: url(../images/logo.jpg);
     background-size: cover;

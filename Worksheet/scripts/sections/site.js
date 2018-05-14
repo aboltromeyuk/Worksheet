@@ -2,6 +2,8 @@
     Content.setInputValueToRadio($('#other'));
 
     $('#User_Phone').mask("+375 (99) 999-99-99");
+    $('#Answer_ScoreFinal').mask("9:9");
+    $('#Answer_ScoreThird').mask("9:9");    
 });
 
 Content = {

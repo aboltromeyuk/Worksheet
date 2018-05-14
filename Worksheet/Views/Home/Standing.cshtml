@@ -4,9 +4,8 @@
     <img src="~/Content/images/standing.jpg" />   
     
     <div class="games">
-        <div class="d-inline-block w-10-5 h-100"></div>
-
-        <div class="d-inline-block w-9-8 h-100">
+        
+        <div class="d-inline-block w-13-7 h-100">
             
                 
             <div class="OneEigth">
@@ -68,7 +67,7 @@
             
         </div>
 
-        <div class="d-inline-block w-9-8 h-100">
+        <div class="d-inline-block w-12-2 h-100">
             <div class="OneQuarter">
                 @Html.EditorFor(model => model.Standing.OneQuarters[0].FirstCommand)
                 @Html.ValidationMessageFor(model => model.Standing.OneQuarters[0].FirstCommand, "", new { @class = "" })
@@ -98,7 +97,7 @@
             </div>
         </div>
 
-        <div class="d-inline-block w-10-5 h-100">
+        <div class="d-inline-block w-12-2 h-100">
 
             <div class="Semifinal">
                 @Html.EditorFor(model => model.Standing.Semifinals[0].FirstCommand)
@@ -116,7 +115,7 @@
 
         </div>
 
-        <div class="d-inline-block w-19 h-100">
+        <div class="d-inline-block w-24-3 h-100">
 
             <div class="Finall">
                 @Html.EditorFor(model => model.Standing.Final.FirstCommand)
@@ -148,7 +147,7 @@
 
         </div>
 
-        <div class="d-inline-block w-10-2 h-100">
+        <div class="d-inline-block w-11-5 h-100">
 
             <div class="Semifinal custom">
                 @Html.EditorFor(model => model.Standing.Semifinals[1].FirstCommand)
@@ -166,7 +165,7 @@
 
         </div>
 
-        <div class="d-inline-block w-9-8 h-100">
+        <div class="d-inline-block w-12-2 h-100">
 
             <div class="OneQuarter">
                 @Html.EditorFor(model => model.Standing.OneQuarters[2].FirstCommand)
@@ -198,7 +197,7 @@
 
         </div>
 
-        <div class="d-inline-block w-9-8 h-100">
+        <div class="d-inline-block w-13-7 h-100">
 
             <div class="OneEigth">
                 @Html.EditorFor(model => model.Standing.OneEigths[4].FirstCommand)
@@ -255,10 +254,7 @@
                 @Html.EditorFor(model => model.Standing.OneEigths[7].ScoreSecondCommand)
                 @Html.ValidationMessageFor(model => model.Standing.OneEigths[7].ScoreSecondCommand, "", new { @class = "" })
             </div>
-
-        </div>
-
-        <div class="d-inline-block w-10-5 h-100"></div>
+        </div>        
     </div> 
 </div>
 

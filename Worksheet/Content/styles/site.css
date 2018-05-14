@@ -15,6 +15,7 @@
     width: 80%;
     background-color: white;
     margin: 0 auto;
+    min-height: 400px;
 }
 
 .standing-wrap img{
@@ -29,23 +30,23 @@
     font-size: 0;
 }
 
-.w-10-5{
-    width: 10.5% !important;
+.w-13-7{
+    width: 13.7% !important;
     vertical-align: top;
 }
 
-.w-9-8{
-    width: 9.8% !important;
+.w-12-2{
+    width: 12.2% !important;
     vertical-align: top;
 }
 
-.w-19{
-    width: 19% !important;
+.w-24-3{
+    width: 24.3% !important;
     vertical-align: top;
 }
 
-.w-10-2{
-    width: 10.2% !important;
+.w-11-5{
+    width: 11.5% !important;
     vertical-align: top;
 }
 
@@ -53,40 +54,39 @@
 .OneQuarter,
 .Semifinal{
     margin: 0 auto;
-    width: 75%;
-    height: 6%;     
+    width: 70%;
+    height: 3.3%;   
 }
 
 .OneEigth{
-    margin-top: 33%;  
-    margin-bottom: 61%; 
+    margin-top: 33%;
+    padding-left: 14%;
 }
 
 .OneQuarter{
-    margin-top: 75%;
-    margin-bottom: 145%;
+    margin-top: 180%;    
 }
 
 .Semifinal{
-    margin-top: 146%;
+    margin-top: 354%;
 }
 
 .Semifinal.custom{
-    margin-top: 150%;
+    margin-top: 377%;
 }
 
 .Finall{
     margin: 0 auto;
-    width: 80%;
-    height: 11%;
-    margin-top: 69%;
+    width: 72%;
+    height: 6%;
+    margin-top: 168%;
 }
 
 .ThirdPlace{
     margin: 0 auto;
-    width: 55%;
-    height: 8%;
-    margin-top: 44%;
+    width: 40%;
+    height: 4%;
+    margin-top: 34%;
     margin-bottom: 0;
 }
 
@@ -97,7 +97,7 @@
     width: 69%;
     margin-right: 4%;
     height: 100%;
-    border-radius: 6px;    
+    border-radius: 6px;
     vertical-align: top;
     font-size: 15px;
 }
@@ -188,8 +188,34 @@
   margin: 0; 
 }
 
+.d-inline-block.w-13-7.h-100 .OneEigth:first-child{
+    margin-top: 180%;
+}
+
+.d-inline-block.w-13-7.h-100 .OneEigth:nth-child(2){
+    margin-top: 69%;
+}
+
+.d-inline-block.w-13-7.h-100 .OneEigth:nth-child(3){
+    margin-top: 74%;
+}
+
+.d-inline-block.w-13-7.h-100 .OneEigth:nth-child(4){
+    margin-top: 68%;
+}
+
+.games .w-13-7:last-child .OneEigth{
+    padding-left:0;
+    padding-right: 10%
+
+}
+
+.d-inline-block.w-12-2.h-100 .OneQuarter:first-child{
+    margin-top: 254%;
+}
+
 .games input.input-validation-error{
-    border-color: rgba(220, 53, 69, 0.7);
+    border: 3px solid rgba(220, 53, 69, 0.7);
 }
 
 .games input[type=number]{

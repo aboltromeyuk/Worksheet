@@ -32,10 +32,15 @@ namespace Worksheet.Controllers
             {
                 _service.SaveData(model);
 
-                return RedirectToAction("Index");                
+                return RedirectToAction("End");                
             }
 
             return View(model);
+        }
+
+        public ActionResult End()
+        {
+            return View();
         }
     }
 }

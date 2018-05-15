@@ -1,11 +1,11 @@
 ﻿body {
-    background: linear-gradient(-90deg, #052e54, #004276,#004e8c, #025fa5);
+    background: linear-gradient(-90deg, #113154, #004276,#004e8c, #225fa2);
 }
 .header{
     width: 93.5%;
     margin: 0 auto;
-    height: 278px;
-    background-image: url(../images/logo.jpg);
+    height: 375px;
+    background-image: url(../images/logo.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -226,4 +226,28 @@
     background-color: gray;
     border-color: gray;
     color: white;
+}
+
+@media (max-width: 1500px){
+    .header {
+        height: 275px;
+    }
+}
+
+@media (max-width: 1050px){
+    .header {
+        height: 205px;
+    }
+}
+
+@media (max-width: 800px){
+    .header {
+        height: 155px;
+    }
+}
+
+@media (max-width: 610px){
+    .header {
+        height: 125px;
+    }
 }
